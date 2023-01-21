@@ -8,7 +8,7 @@ describe('Teste o componente <About.js />', () => {
     renderWithRouter(<About />);
     const info1 = /This application simulates a Pokédex, a digital encyclopedia containing all Pokémon/i;
     const info2 = /One can filter Pokémon by type, and see more details for each one of them/i;
-    expect(screen.queryByText(info1)).toBeInTheDocument();
+    expect(screen.getByText(info1)).toBeInTheDocument();
     expect(screen.getByText(info2)).toBeInTheDocument();
   });
   test('Teste se a página contém um heading h2 com o texto About Pokédex', () => {
