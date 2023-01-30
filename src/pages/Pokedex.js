@@ -6,7 +6,7 @@ import {
   Button,
   Pokemon,
   PokemonButtonsPanel,
-} from '../components';
+} from '../components'; 
 
 import './pokedex.css';
 
